@@ -1,0 +1,110 @@
+{
+    "projects": [
+        {
+            "id": 1,
+            "title1": "Blue Ocean",
+            "title2": "Evolution",
+            "image": "/blue-ocean.jpg",
+            "allImages": 
+           [
+                {
+                    "image": "/blue-ocean/1.jpg",
+                    "title": "Home"
+                },
+                {
+                    "image": "/blue-ocean/2.jpg",
+                    "title": "Products"
+                },
+                {
+                    "image": "/blue-ocean/3.jpg",
+                    "title": "Case Studies"
+                },
+                {
+                    "image": "/blue-ocean/4.jpg",
+                    "title": "Clients/Approvals"
+                },
+                {
+                    "image": "/blue-ocean/5.jpg",
+                    "title": "Environment"
+                },
+                {
+                    "image": "/blue-ocean/6.jpg",
+                    "title": "Industries"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "title1": "PixelsBit",
+            "image": "/pixelsbit.jpg",
+            "allImages": 
+            {
+                "image1": "/blue-ocean/1.jpg",
+                "image2": "/blue-ocean/2.jpg",
+                "image3": "/blue-ocean/3.jpg",
+                "image4": "/blue-ocean/4.jpg",
+                "image5": "/blue-ocean/5.jpg",
+                "image6": "/blue-ocean/6.jpg"
+            }
+        },
+        {
+            "id": 3,
+            "title1": "Interface",
+            "title2": "Services",
+            "image": "/interface-services.jpg",
+            "allImages": 
+            {
+                "image1": "/blue-ocean/1.jpg",
+                "image2": "/blue-ocean/2.jpg",
+                "image3": "/blue-ocean/3.jpg",
+                "image4": "/blue-ocean/4.jpg",
+                "image5": "/blue-ocean/5.jpg",
+                "image6": "/blue-ocean/6.jpg"
+            }
+        },
+        {
+            "id": 4,
+            "title1": "Sushi",
+            "title2": "Airways",
+            "image": "/sushi-airways.jpg",
+            "allImages": 
+            {
+                "image1": "/blue-ocean/1.jpg",
+                "image2": "/blue-ocean/2.jpg",
+                "image3": "/blue-ocean/3.jpg",
+                "image4": "/blue-ocean/4.jpg",
+                "image5": "/blue-ocean/5.jpg",
+                "image6": "/blue-ocean/6.jpg"
+            }
+        },
+        {
+            "id": 5,
+            "title1": "Archchemie",
+            "image": "/archchemie.jpg",
+            "allImages": 
+            {
+                "image1": "/blue-ocean/1.jpg",
+                "image2": "/blue-ocean/2.jpg",
+                "image3": "/blue-ocean/3.jpg",
+                "image4": "/blue-ocean/4.jpg",
+                "image5": "/blue-ocean/5.jpg",
+                "image6": "/blue-ocean/6.jpg"
+            }
+        },
+        {
+            "id": 6,
+            "title1": "Tours 4",
+            "title2": "UAE",
+            "image": "/tours4uae.jpg",
+            "allImages": 
+            {
+                "image1": "/blue-ocean/1.jpg",
+                "image2": "/blue-ocean/2.jpg",
+                "image3": "/blue-ocean/3.jpg",
+                "image4": "/blue-ocean/4.jpg",
+                "image5": "/blue-ocean/5.jpg",
+                "image6": "/blue-ocean/6.jpg"
+            }
+        }    
+    ]
+}

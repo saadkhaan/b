@@ -1,0 +1,25 @@
+{
+  "name": "Saad",
+  "version": "1.0.0",
+  "description": "My glorious Nuxt.js project",
+  "author": "saadkhaan",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@barba/core": "^2.9.6",
+    "@nuxtjs/axios": "^5.9.2",
+    "gsap": "^2.1.3",
+    "nuxt": "^2.0.0",
+    "scroll-out": "^2.2.7",
+    "serialize-javascript": "2.1.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0"
+  }
+}
