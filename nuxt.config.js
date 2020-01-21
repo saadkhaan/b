@@ -1,10 +1,11 @@
 
 import axios from 'axios';
+
 export default {
   mode: 'universal',
 
   generate: {
-    routes () {
+    async routes () {
       return axios.get('http://localhost:3000/projects')
         .then((res) => {
           return res.data.map((project) => {
@@ -58,7 +59,9 @@ export default {
   ** Nuxt.js modules
   */
   modules: [
-    '@nuxtjs/axios'
+    ['@nuxtjs/axios', {
+      baseURL: 'http://localhost:3000'
+    }]
   ],
   /*
   ** Build configuration
@@ -69,5 +72,10 @@ export default {
     */
     extend(config, ctx) {
     }
+  },
+
+  server: {
+    port: 3001,
+    host: '0.0.0.0'
   }
 }

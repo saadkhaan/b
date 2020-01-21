@@ -20,6 +20,9 @@
     "vue-template-compiler": "^2.6.11"
   },
   "devDependencies": {
-    "@nuxtjs/tailwindcss": "^1.0.0"
+    "@babel/core": "^7.8.3",
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "trim-right": "^1.0.1"
   }
 }
