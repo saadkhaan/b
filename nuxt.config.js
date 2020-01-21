@@ -1,12 +1,14 @@
 
 import axios from 'axios';
 
+const baseURL = process.env.API_BASE_URL || 'http://localhost:3000'
+
 export default {
   mode: 'universal',
 
   generate: {
     async routes () {
-      return axios.get('http://localhost:3000/projects')
+      return axios.get(`${baseURL}/projects`)
         .then((res) => {
           return res.data.map((project) => {
             return '/project/' + project.id
@@ -60,7 +62,7 @@ export default {
   */
   modules: [
     ['@nuxtjs/axios', {
-      baseURL: 'http://localhost:3000'
+      baseURL: baseURL
     }]
   ],
   /*
